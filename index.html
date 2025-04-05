@@ -1,1 +1,47 @@
-
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>个人主页</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <header>  
+        <nav>  
+            <ul>  
+                <li><a href="#home">首页</a></li>  
+                <li><a href="#about">关于我</a></li>  
+                <li><a href="#portfolio">作品集</a></li>  
+                <li><a href="#contact">联系我</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+    <section id="home">  
+        <h1>欢迎来到我的个人主页</h1>  
+        <img src="profile.jpg" alt="个人照片" width="150">  
+        <p>这是我的个人主页。</p>  
+    </section>  
+    <section id="skills">  
+        <h2>我的技能表</h2>  
+        <table>  
+            <tr><th>技能</th><th>级别</th></tr>  
+            <tr><td>HTML</td><td>★★★★★</td></tr>  
+            <tr><td>CSS</td><td>★★★★☆</td></tr>  
+            <tr><td>JavaScript</td><td>★★★☆☆</td></tr>  
+        </table>  
+    </section>  
+    <section id="contact">  
+        <h2>联系表单</h2>  
+        <form>  
+            <label for="name">姓名:</label>  
+            <input type="text" id="name" name="name">  
+            <label for="email">邮箱:</label>  
+            <input type="email" id="email" name="email">  
+            <label for="message">消息:</label>  
+            <textarea id="message" name="message"></textarea>  
+            <button type="submit">发送</button>  
+        </form>  
+    </section>  
+</body>  
+</html>  
